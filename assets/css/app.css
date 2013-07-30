@@ -1,0 +1,156 @@
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+body {
+	background: url("../img/background.jpg") fixed;
+}
+
+.container {
+	padding-left: 460px;
+	min-height: 400px;
+}
+
+.home .container, .home .span12 {
+	width: initial;
+}
+
+.row {
+	margin: 0;
+}
+
+/* =============================================================================
+   Header
+   ========================================================================== */
+
+.sidebar {
+	float: left;
+	position: fixed;
+	height: 100%;
+	margin-bottom: 40px;
+	padding-left: 60px;
+	padding-top: 60px;
+	box-shadow: 0px 0px 15px rgba(0,0,0,10.75);
+	z-index: 40;
+	width: 400px;
+}
+
+.navbar .brand {
+	color: #ff6600;
+	color: rgba(255, 102, 0, 0.8);
+	text-shadow: 1px 2px 4px #e3e3e3, 0 0 0 #000, 1px 2px 4px #e3e3e3, 0 1px 0 #fff;
+	font: 50px 'Cinzel Decorative', Tahoma, Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
+
+.content { }
+
+article.post .wp-post-image {
+	width: 100%;
+	display: block;
+}
+
+article.post {
+	overflow: hidden;
+	position: relative;
+	height: 400px;
+}
+
+article.post h2 {
+	position: absolute;
+	bottom: 10px;
+	left: 30px;
+	line-height: 58px;
+	font: 58px 'Cinzel Decorative', Tahoma, Helvetica, Arial, sans-serif;
+	z-index: 4;
+	font-weight: bold;
+}
+
+article.post h2 a {
+	color: rgba(255,255,255,0.1);
+	text-shadow: 0px 0px 10px rgba(255,255,255,0.9);
+	transition: all 0.3s ease-in-out;
+}
+
+
+article.post .hover-background {
+	display: block;
+	opacity: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	background: rgba(255, 102, 0, 0.8);
+	transition: all 0.3s ease-in-out;
+}
+
+article.post:hover .hover-background {
+	opacity: 1;
+}
+
+article.post:hover h2 a {
+	color: white;
+	text-shadow: none;
+	text-decoration: none;
+}
+
+/* ==========================================================================
+   Primary Content
+   ========================================================================== */
+
+.main { }
+
+
+
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+
+.sidebar { }
+
+
+
+/* ==========================================================================
+   Posts
+   ========================================================================== */
+
+.hentry header { }
+.hentry time { }
+.hentry .byline { }
+.hentry .entry-content { }
+.hentry footer { }
+
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.content-info { }
+
+
+
+/* ==========================================================================
+   WordPress Generated Classes
+   See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
+   ========================================================================== */
+
+.aligncenter { display: block; margin: 0 auto; }
+.alignleft { float: left; }
+.alignright { float: right; }
+figure.alignnone { margin-left: 0; margin-right: 0; }
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media (max-width: 767px) {
+
+}
